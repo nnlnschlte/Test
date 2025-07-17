@@ -114,7 +114,6 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-import matplotlib.dates as mdates
 
 # 📌 Liste der wichtigen Ereignisse (Datum, Beschreibung)
 events = [
