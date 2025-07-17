@@ -9,6 +9,9 @@ import seaborn as sns
 import math # Import the math module
 import time # Import the time module
 
+st.title("Google Trends: Mentale Gesundheit")
+
+st.info("Verbinde mit Google Trends...")
 # Suppress FutureWarning
 pd.set_option('future.no_silent_downcasting', True)
 
