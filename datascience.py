@@ -2,7 +2,7 @@
 # Installation
 
 import streamlit as st
-!pip install pytrends --quiet
+
 
 # Importe
 from pytrends.request import TrendReq
