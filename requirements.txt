@@ -1,4 +1,5 @@
 streamlit
 pytrends
+pandas
 matplotlib
 seaborn
