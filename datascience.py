@@ -1,8 +1,5 @@
-# @title Standardtext für Titel
-# Installation
 
 import streamlit as st
-
 
 # Importe
 from pytrends.request import TrendReq
@@ -114,6 +111,7 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
+import matplotlib.dates as mdates
 
 # 📌 Liste der wichtigen Ereignisse (Datum, Beschreibung)
 events = [
@@ -149,3 +147,4 @@ plt.ylabel("Suchinteresse (0–100)")
 plt.legend(loc='upper left')
 plt.tight_layout()
 plt.show()
+
